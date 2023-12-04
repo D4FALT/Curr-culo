@@ -54,7 +54,7 @@ ajuda = [
   <span class="command">ajuda</span>       
    <span class="command">↳</span>&nbsp;Mostre a lista de comandos.
   <span class="command">tetris</span>       
-   <span class="command">↳</span>&nbsp;Se queiser jogar um tetris comigo é só me chamar.
+   <span class="command">↳</span>&nbsp;Quer jogar tetris?
   <span class="command">limpe</span>
    <span class="command">↳</span>&nbsp;Limpe o terminal.</pre><br>`,
 ];
