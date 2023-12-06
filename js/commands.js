@@ -45,11 +45,11 @@ projetos = [
   "<br>",
   `<a href="https://d4falt.github.io/Another-Guy-Named-Dan/" target="blank"><span class='underline'>portfolio musical Daniel</span>`,
   "<br>",
-  `<pre class="indent-8 whitespace-pre-wrap">Projeto simples usando Java e CSS.
+  `<pre class="indent-8 whitespace-pre-wrap">Um projeto pequeno que funciona como um tocador de mp3, também serve como portfólio.
 
 Pode verificar aqui:<a href="https://d4falt.github.io/Another-Guy-Named-Dan/" target="blank">https://d4falt.github.io/Another-Guy-Named-Dan/</a>
 
-Built With
+Realizado com:
 
     *HTML
     *CSS
