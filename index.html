@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio | Seja bem vindo ao meu portfólio! — Digite 'ajuda' para acessar meu portfólio.">
+  <meta name="keywords" content="Pedro Lucas, Pedro Lucas, portfólio, HTML, CSS, pedro_lucas">
+  <meta name="author" content="Pedro Lucas">
+  <meta http-equiv="refresh" content="250">
+  <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
+  <link href="main.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/39565093f3.js""></script>
+    <script>function close_window() {
+        if (confirm(" Close Window?")) { close(); }
+      } </script>
+  <title>portfólio</title>
+</head>
+
+<body style="font-family: 'Ubuntu', sans-serif;" class="overflow-y-scroll bg-cover lazy text-[1.1rem]">
+  <div class="m-2 relative" onclick="document.getElementById('texter').focus();">
+    <div
+      class="ring-1 ring-purple-500 bg-[#081d2dd8] border-[#7AE0CA] border hover:backdrop-blur-sm rounded-[2px] shadow-xl shadow-[#1d1e1fb4] min-h-[98vh] resize overflow-hidden ">
+
+      <header>
+        <p class="p-2 text-center text-slate-400">
+          <a href="https://github.com/D4FALT" target="blank"><i
+              class="fa-brands fa-github pb-1 text-xl float-left text-slate-500 hover:text-pink-800"></i>pedro lucas</a>
+          <a href="javascript:close_window();"><i
+              class="fa-solid fa-circle-xmark text-xl justify-end text-slate-500 hover:text-red-500 items-end  float-right"></i></a>
+        </p>
+        <hr class="border-[#7AE0CA]">
+      </header>
+      <div class="p-4">
+        <div class="flex flex-col md:flex-row">
+          <pre
+            class="ascii pt-2 pb-5 prose lg:prose-xl text-[#8de2d0ac] whitespace-pre-wrap inline-block break-words leading-none" style="font-family: monospace,-webkit-pictograph;">
+
+            ╔═╗──╔╗────╔╗
+            ║╬╠═╦╝╠╦╦═╗║║
+            ║╔╣╩╣╬║╔╣╬║║╚╗
+            ╚╝╚═╩═╩╝╚═╝╚═╝
+            </pre>
+          <div class="pl-2 float-right" ; style="font-family: 'Ubuntu', sans-serif;">
+            <div class="text-[#7AE0CA] md:text-[16px] text-[15px]"><i
+                class="fa-solid fa-address-card pr-[0.9rem]"></i>Pedro Lucas de Barros
+              <pre class="text-[#8DE2D0]">-------------------</pre>
+
+            </div>
+
+            <a href="https://drive.google.com/uc?export=download&id=11jak034mYklq63IokfZybTFQh09Tfbdd">
+              <div class="text-[#7AE0CA] text-[15.3px]"><i
+                  class="fa-solid fa-file-invoice pr-[1rem] justify-items-start"></i>currículo<a href="https://drive.google.com/uc?export=download&id=11jak034mYklq63IokfZybTFQh09Tfbdd"
+                  class="text-[14.8px] p-1">→ &nbsp;Download meu currículo....</a></div>
+              <a href="https://github.com/D4FALT" target="blank">
+                <div class="text-[#7AE0CA] text-[15.3px]"><i
+                    class="fa-brands fa-github pr-[0.7rem] justify-items-start"></i>Github<a
+                    href="https://github.com/D4FALT" target="blank" class="text-[14.8px] p-1 ">→
+                    &nbsp;github.com/D4FALT</a></div>
+
+                    <a href="https://instagram.com/_pedrovisk_ofc_?utm_source=qr&igshid=OGU0MmVlOWVjOQ==" target="blank">
+                      <div class="text-[#7AE0CA] text-[15.3px]"><i
+                          class="fa-brands fa-instagram pr-[0.9rem] justify-items-start"></i>Instagram<a
+                          href="https://instagram.com/_pedrovisk_ofc_?utm_source=qr&igshid=OGU0MmVlOWVjOQ==" target="blank" class="text-[14.8px] p-1">→
+                          &nbsp;instagram</a></div>
+            
+          </div>
+        </div>
+        <div id="terminal">
+          <a id="before"></a>
+        </div>
+        <div id="command" onclick="$('texter').focus();">
+          <input type="text" id="texter" class="texter" onkeyup="typeIt(this, event)" onkeydown="typeIt(this, event); 
+                   moveIt(this.value.length, event)" onkeypress="typeIt(this, event);"></input>
+          <div id="liner">
+            <span id="typer"></span><b class="cursor" id="cursor">█</b><div class="list"></div>
+      
+          </div>
+        </div>
+
+        <footer class="md:pt-[26%] pt-[100%]">
+          <div class="p-2 bg-[#061826a7] border-[#7AE0CA] border rounded-[2px] w-full md:w-max float-right relative bottom-4">
+            <div class="flex flex-row p-1">
+              <!-- Adicionando um reprodutor de áudio -->
+              <audio controls autoplay>
+                <source src="Peaceful.mp3" type="audio/mp3">
+                Seu navegador não suporta o elemento de áudio.
+              </audio>
+              <!-- Fim do reprodutor de áudio -->
+      
+              <div>
+                <div class="flex md:flex-col flex-row pl-2 text-[15px] md:text-[17px]">Você está ouvindo...
+                  <div class="underline text-[15px] md:text-[17px]">
+                    <div class="artista" id="trilha">Musica: Peaceful </div>
+                    <div class="text-[15px] md:text-[17px]"></div>
+                    <a href="https://www.youtube.com/@Fella_Dan" target="blank" class="text-[15px] md:text-[17px]">
+        &nbsp;Artista: Another Guy Named Dan </a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+  </script>                                      
+        <script src="./js/caret.js"></script>
+        <script src="./js/commands.js"></script>
+        <script src="./js/main.js"></script>
+                               
+        
+</body>
+
+</html>
